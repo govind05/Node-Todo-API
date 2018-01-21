@@ -1,5 +1,5 @@
 const {
-  user
+  User
 } = require('./../models/user');
 
 let authenticate = (req, res, next) => {
