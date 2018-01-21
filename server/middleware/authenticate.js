@@ -1,5 +1,5 @@
 const {
-  User
+  user
 } = require('./../models/user');
 
 let authenticate = (req, res, next) => {
@@ -17,6 +17,6 @@ let authenticate = (req, res, next) => {
   });
 };
 
-modules.export = {
+module.exports = {
   authenticate
 };
